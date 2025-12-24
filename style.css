@@ -1,0 +1,62 @@
+/* Set Font */
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+
+* {
+    font-family: 'Domine', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #ca151b 50%, #fad0c4 100%);
+    min-height: 100vh;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#nav-bar {
+    background: transparent;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    color: rgb(0, 211, 63);
+    padding: 0px 50px 0px 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-bar .logo {
+    font-size: 2rem;
+    color: rgb(191, 243, 2);
+    font-weight: 600;
+}
+#nav-bar  .nav-bar-links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+#nav-bar .nav-bar-links li a {
+    color: white;
+    text-decoration: none;
+    font: 1.2rem;  
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+#nav-bar .nav-bar-links li a:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#nav-bar .nav-bar-links li a:hover,
+#nav-bar .nav-bar-links li a:active{
+    background : rgba(231, 228, 228, 0.863);
+    transition: all 0.3s ease-in-out;
+    }
